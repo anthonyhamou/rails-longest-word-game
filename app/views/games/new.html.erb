@@ -1,9 +1,9 @@
 <h1>New Game</h1>
 
-<div class="container" >
+<div class="container text-center" >
   <ul>
     <% @letters.each do |letter| %>
-    <li class="btn btn-primary text-center"><%= letter.capitalize %></li>
+    <li class="btn btn-primary text-"><%= letter.capitalize %></li>
     <% end %>
   </ul>
   <form action="/score" method="post" class="form-inline justify-content-center">
